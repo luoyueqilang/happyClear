@@ -1,0 +1,100 @@
+{
+	"groups": [
+		{
+			"keys": "button_down_png,button_up_png,description_json,HHC_bg_png,HHC_bg1_png,hc_bg_png,hc_animal_6_png,hc_animal_5_png,hc_animal_4_png,hc_animal_3_png,hc_animal_2_png,hc_animal_1_png,hc_animal_0_png,hc_front_png,hc_infotip_png,hc_ice_png,hc_lock_png,hc_lock_1_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/HHC_bg.png",
+			"type": "image",
+			"name": "HHC_bg_png"
+		},
+		{
+			"url": "assets/HHC_bg1.png",
+			"type": "image",
+			"name": "HHC_bg1_png"
+		},
+		{
+			"name": "hc_bg_png",
+			"type": "image",
+			"url": "assets/hc_bg.png"
+		},
+		{
+			"name": "hc_animal_6_png",
+			"type": "image",
+			"url": "assets/hc_animal_6.png"
+		},
+		{
+			"name": "hc_animal_5_png",
+			"type": "image",
+			"url": "assets/hc_animal_5.png"
+		},
+		{
+			"name": "hc_animal_4_png",
+			"type": "image",
+			"url": "assets/hc_animal_4.png"
+		},
+		{
+			"name": "hc_animal_3_png",
+			"type": "image",
+			"url": "assets/hc_animal_3.png"
+		},
+		{
+			"name": "hc_animal_2_png",
+			"type": "image",
+			"url": "assets/hc_animal_2.png"
+		},
+		{
+			"name": "hc_animal_1_png",
+			"type": "image",
+			"url": "assets/hc_animal_1.png"
+		},
+		{
+			"name": "hc_animal_0_png",
+			"type": "image",
+			"url": "assets/hc_animal_0.png"
+		},
+		{
+			"name": "hc_front_png",
+			"type": "image",
+			"url": "assets/hc_front.png"
+		},
+		{
+			"name": "hc_infotip_png",
+			"type": "image",
+			"url": "assets/hc_infotip.png"
+		},
+		{
+			"name": "hc_ice_png",
+			"type": "image",
+			"url": "assets/hc_ice.png"
+		},
+		{
+			"name": "hc_lock_png",
+			"type": "image",
+			"url": "assets/hc_lock.png"
+		},
+		{
+			"name": "hc_lock_1_png",
+			"type": "image",
+			"url": "assets/hc_lock_1.png"
+		}
+	]
+}

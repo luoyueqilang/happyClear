@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HC_TableViewSkin" width="750" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="750" height="1136" y="0" source="hc_bg_png" horizontalCenter="0" />
+	<e:Image width="599" height="68" y="119" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+	         source="hc_infotip_png" />
+	<e:Image width="100" height="60" x="8" y="517" anchorOffsetX="0" anchorOffsetY="0" source="hc_front_png" />
+	<e:Label id="front_round" text="上一关" x="18" y="534.5" anchorOffsetX="0" width="83" anchorOffsetY="0" height="22"
+	         size="20" textAlign="center" verticalAlign="middle" bold="false" textColor="0xfc1e0a" />
+	<e:Image width="100" height="60" x="693" y="547" anchorOffsetX="49" anchorOffsetY="30" source="hc_front_png"
+	         rotation="178.66" />
+	<e:Label id="next_round" text="下一关" x="646" y="536" width="83" height="22" size="20" textColor="0xef1313"
+	         textAlign="center" verticalAlign="middle" />
+	<e:Label text="当前关卡" x="196" y="86" textColor="0x1e0101" />
+	<e:Label id="roundInfo" text="4" x="340" y="84" anchorOffsetX="0" width="94" height="35" textAlign="center"
+	         verticalAlign="middle" textColor="0xe51919" />
+	<e:Group width="132" height="31" x="317" y="134" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label text="得分" x="8" y="3" size="25" textColor="0xf9f6f4" anchorOffsetY="0" height="30" />
+		<e:Label id="score" text="0" x="71" y="2" anchorOffsetX="0" width="55" height="30" textAlign="center"
+		         verticalAlign="middle" textColor="0xf9c600" anchorOffsetY="0" size="25" />
+	</e:Group>
+	<e:Group width="132" height="31" x="163" y="137" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label text="步数" x="8" y="3" size="25" textColor="0xf9f6f4" anchorOffsetY="0" height="30" />
+		<e:Label id="stepCount" text="0" x="67" y="2" anchorOffsetX="0" width="55" height="30" textAlign="center"
+		         verticalAlign="middle" textColor="0xf9c600" anchorOffsetY="0" size="25" />
+	</e:Group>
+	<e:Label id="colorCount" text="0" x="531" y="137" textColor="0xf9f6f4" size="20" height="29" textAlign="center"
+	         verticalAlign="middle" anchorOffsetX="0" width="46" anchorOffsetY="0" />
+	<e:Label id="target_score" text="目标分数" x="473" y="84" anchorOffsetX="0" width="120" anchorOffsetY="0" height="32"
+	         size="25" textColor="0xd30e0e" textAlign="center" verticalAlign="middle" visible="false" />
+	<e:Group width="102" height="52" x="87" y="900" anchorOffsetY="0.87" anchorOffsetX="0.96">
+		<e:Rect width="102" height="52" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" ellipseHeight="50" ellipseWidth="50"
+		        fillColor="0xd64c04" />
+		<e:Rect width="100" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xd2ef77"
+		        ellipseHeight="50" ellipseWidth="50" />
+		<e:Label id="refresh_btn" text="刷新" x="4" y="6" anchorOffsetY="0" height="39" textAlign="center"
+		         verticalAlign="middle" textColor="0x032f3f" size="25" anchorOffsetX="0" width="92" />
+	</e:Group>
+	<e:Group width="102" height="52" x="211" y="900" anchorOffsetY="0.87" anchorOffsetX="0.96">
+		<e:Rect width="102" height="52" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" ellipseHeight="50" ellipseWidth="50"
+		        fillColor="0xd64c04" />
+		<e:Rect width="100" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xd2ef77"
+		        ellipseHeight="50" ellipseWidth="50" />
+		<e:Label id="addStepCount_btn" text="加步数" x="4" y="6" anchorOffsetY="0" height="39" textAlign="center"
+		         verticalAlign="middle" textColor="0x032f3f" size="25" anchorOffsetX="0" width="92" />
+	</e:Group>
+	<e:Group width="102" height="52" x="332" y="900" anchorOffsetY="0.87" anchorOffsetX="0.96">
+		<e:Rect width="102" height="52" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" ellipseHeight="50" ellipseWidth="50"
+		        fillColor="0xd64c04" />
+		<e:Rect width="100" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xd2ef77"
+		        ellipseHeight="50" ellipseWidth="50" />
+		<e:Label id="hammer_btn" text="锤子" x="4" y="6" anchorOffsetY="0" height="39" textAlign="center" verticalAlign="middle"
+		         textColor="0x032f3f" size="25" anchorOffsetX="0" width="92" />
+	</e:Group>
+	<e:Group width="102" height="52" x="455" y="900" anchorOffsetY="0.87" anchorOffsetX="0.96">
+		<e:Rect width="102" height="52" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" ellipseHeight="50" ellipseWidth="50"
+		        fillColor="0xd64c04" />
+		<e:Rect width="100" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xd2ef77"
+		        ellipseHeight="50" ellipseWidth="50" />
+		<e:Label id="magicWand_btn" text="魔法棒" x="4" y="6" anchorOffsetY="0" height="39" textAlign="center" verticalAlign="middle"
+		         textColor="0x032f3f" size="25" anchorOffsetX="0" width="92" />
+	</e:Group>
+	<e:Group width="102" height="52" x="576" y="900" anchorOffsetY="0.87" anchorOffsetX="0.96">
+		<e:Rect width="102" height="52" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" ellipseHeight="50" ellipseWidth="50"
+		        fillColor="0xd64c04" />
+		<e:Rect width="100" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xd2ef77"
+		        ellipseHeight="50" ellipseWidth="50" />
+		<e:Label id="back_btn" text="撤回" x="4" y="6" anchorOffsetY="0" height="39" textAlign="center" verticalAlign="middle"
+		         textColor="0x032f3f" size="25" anchorOffsetX="0" width="92" />
+	</e:Group>
+	<e:Rect width="96" height="42" x="72" y="971" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x703631" alpha="0.5"/>
+	<e:Label text="提示" x="87" y="977" textColor="0xf2f4ed"/>
+	<e:Rect width="506" height="44" x="188" y="970" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x843636" alpha="0.5"/>
+	<e:Label id="tip_text" text="" x="194" y="972" anchorOffsetX="0" width="494" anchorOffsetY="0" height="40" textAlign="center" verticalAlign="middle"/>
+</e:Skin>
